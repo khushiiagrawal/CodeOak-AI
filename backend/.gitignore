@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs & runtime
+logs/
+*.log
+*.sqlite3
+
+# Cache
+.cache/
+__pycache__/
+*.pytest_cache/
+
+# Docker (if using)
+docker-compose.override.yml
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Build artifacts
+build/
+dist/
